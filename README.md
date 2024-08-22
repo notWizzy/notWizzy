@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi There!
 
-<!--
-**notWizzy/notWizzy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**About Me**:
+I'm a graduate student studying Applied AI at XYZ University. I have a strong interest in machine learning, data science, and artificial intelligence.
 
-Here are some ideas to get you started:
+**Education**:
+- B.S. in Computer Science from ABC University
+- Currently pursuing an M.S. in Applied AI
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Skills**:
+- Python
+- Machine Learning
+- Data Analysis
+- Git
