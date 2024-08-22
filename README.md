@@ -4,8 +4,8 @@
 I'm a graduate student studying Applied AI at XYZ University. I have a strong interest in machine learning, data science, and artificial intelligence.
 
 **Education**:
-- B.S. in Computer Science from ABC University
-- Currently pursuing an M.S. in Applied AI
+- B.S. in Computer Science @ University of North Carolina at Charlotte
+- M.S. in Computer Science @ University of North Carolina at Charlotte
 
 **Skills**:
 - Python
