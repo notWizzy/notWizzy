@@ -2,7 +2,7 @@
 
 **About Me**:
 - I'm an early entry student @ University of North Carolina at Charlotte.
-- Currently interning at 
+- Currently interning @ Fidelity Investments as a Software Engineer
 
 **Education**:
 - :computer: Early Entry in Computer Science @ University of North Carolina at Charlotte:
