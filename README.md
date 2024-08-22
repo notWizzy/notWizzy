@@ -1,8 +1,9 @@
 # Hi There!
 
 **About Me**:
-- I'm an early entry student @ University of North Carolina at Charlotte.
-- Currently interning @ Fidelity Investments as a Software Engineer
+- :school: I'm an early entry student @ University of North Carolina at Charlotte.
+- Currently interning @ Fidelity Investments as a Software Engineer.
+- Currently taking Applied AI grad class @ University of North Carolina at Charlotte.
 
 **Education**:
 - :computer: Early Entry in Computer Science @ University of North Carolina at Charlotte:
@@ -12,4 +13,4 @@
     - Concentration: Systems and Networks
 
 **Connect with me**:
-- :outbox_tray: LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
+- :outbox_tray: ![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png) LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
