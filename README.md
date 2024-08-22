@@ -23,5 +23,5 @@
  - 🤖 Learn AI and work on real life applications that make a difference
  - 🍏 Stay up to date on new technologies
 
-**Connect with me**:
+**Connect**:
 - 📫 LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
