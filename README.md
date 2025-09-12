@@ -1,48 +1,47 @@
-# Hey, I'm Kashyap 👋
+# Hi, I'm Kashyap 👋
 
-🙍‍♂️ **About Me**
-- 💼 Data Engineer @ Parexel (Feb 2025–Present)
-- 🎓 M.S. in Computer Science @ UNC Charlotte — GPA: 4.0
-- 🎓 B.S. in Computer Science (Cum Laude) @ UNC Charlotte
-- 🧠 I build reliable data pipelines and analytics layers, and I enjoy automating the boring stuff.
-
----
-
-🧩 **What I’m Working On**
-- Oracle ➜ Databricks replication (Striim Cloud) with validated initial loads & CDC
-- Automated reconciliation at scale (Azure Data Factory + Databricks PySpark) — cut turnaround from days → hours
-- OpenAI-assisted metadata generation via PySpark to emit bulk ALTER SQL (eliminated ~18k manual edits)
-- Curated Fact/RACT/LMS tables with MERGE-based incremental logic and optimized Delta Lake partitioning
+🙍‍♂️ **About me**
+- 💼 Data Engineer @ **Parexel** (building reliable data pipelines and analytics layers)
+- 🎓 M.S. in Computer Science @ **UNC Charlotte** (GPA 4.0) • B.S. in CS (Cum Laude)
+- ⚙️ I like turning messy data flows into clean, fast, and verifiable pipelines.
 
 ---
 
-🧪 **Previous Experience**
-- **Software Engineer Intern — Fidelity Investments (Jun–Aug 2024)**
-  - Built a micro-frontend architecture for the APO app and set up a Monorepo with Nx
-  - Migrated feature flags from Tirdion → LaunchDarkly with 50+ test cases
-  - Validated APIs with Postman; prototyped a “Knowledge Graph” for planning personalization
-- **Full-Stack Developer Intern — Fidelity Investments (Jun–Aug 2023)**
-  - Internal monitoring tool for 5 apps (prod/non-prod) with an Angular UI
-  - CSS-only splash screen (≈25% faster than JS version)
-  - TypeScript rules for user privileges; worked in Scrum teams
+🧩 **What I do (day to day)**
+- Replicate **Oracle → Databricks** with **Striim Cloud** (initial loads + CDC)
+- Automate **reconciliation at scale** using **Azure Data Factory + Databricks (PySpark)**
+- Maintain curated Delta models (Fact/RACT/LMS), **MERGE**-based increments, smart partitioning
+- Use LLMs to speed up metadata work (bulk **ALTER** statements for tables/views/columns)
 
 ---
 
-🛠️ **Tech I Use**
-- **Languages:** C, C++, C#, Java, Python, PHP, JavaScript/TypeScript, SQL (MySQL), NoSQL
-- **Web/Frameworks:** Node.js, Express, Angular, React, Next.js, jQuery, Bootstrap, HTML5/CSS3
-- **Data & Tools:** Databricks (Delta Lake, PySpark), Striim Cloud, Azure Data Factory, Docker, MongoDB
-- **Dev & Ops:** Git, Jira, Confluence, ServiceNow, JFrog Artifactory, Postman, JUnit, Nx, Linux/UNIX
-- **Practices:** ETL/ELT, CI/CD, Agile, Monorepo, TDD, Feature Flags
+🧪 **Previously**
+- **Fidelity Investments — Software Engineer Intern (2024)**  
+  Built a micro-frontend architecture for the APO app, moved feature flags to LaunchDarkly, set up a Monorepo with Nx, and prototyped a small “knowledge graph” idea.
+- **Fidelity Investments — Full-Stack Intern (2023)**  
+  Internal monitoring tool (Angular UI), CSS-only splash screen (faster loads), TypeScript privilege rules, Scrum team fun.
 
 ---
 
-🎯 **Interests**
-- Reliable data engineering • AI-assisted developer tools • Scalable reconciliation frameworks
+🛠️ **Stuff I use**
+- **Data/Platforms:** Databricks (Delta, PySpark), **Striim Cloud**, **Azure Data Factory**
+- **Languages:** Python, Java, JS/TS, SQL, plus some C/C++/C#
+- **Web/Tools:** Node.js, Express, Angular, React, Next.js, Docker, Git, Postman, Linux/UNIX
+- **Practices:** ETL/ELT, CI/CD, Agile, monorepos, feature flags, tests
 
 ---
 
-📫 **Connect**
-- LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
-- GitHub: https://github.com/notWizzy
-- Email: kashyap76315@icloud.com
+⭐ **Projects**
+- **JWT Auth Test** — a small Node.js app with JWT-based auth, protected routes, and a simple front-end.
+- **Reconciliation Accelerator** — PySpark + ADF workflow to compare source ↔ target at scale and cut analysis time drastically.
+
+---
+
+🎯 **Now learning/playing with**
+- PySpark performance tricks, Delta Lake optimization, and light AI helpers for data engineering.
+
+---
+
+**Connect**
+- 🔗 LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
+- 🧑‍💻 GitHub: https://github.com/notWizzy
