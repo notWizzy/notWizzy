@@ -1,47 +1,57 @@
 # Hi, I'm Kashyap 👋
 
 🙍‍♂️ **About me**
-- 💼 Data Engineer @ **Parexel** (building reliable data pipelines and analytics layers)
-- 🎓 M.S. in Computer Science @ **UNC Charlotte** (GPA 4.0) • B.S. in CS (Cum Laude)
-- ⚙️ I like turning messy data flows into clean, fast, and verifiable pipelines.
+- 💼 Data Engineer at **Parexel** (Databricks, Striim Cloud, Azure Data Factory)
+- 🎓 B.S. in Computer Science, **UNC Charlotte** (Aug 2021 to Dec 2024)
+- ⚙️ I like turning messy data flows into clean, fast, verifiable pipelines that teams can trust.
 
 ---
 
 🧩 **What I do (day to day)**
-- Replicate **Oracle → Databricks** with **Striim Cloud** (initial loads + CDC)
-- Automate **reconciliation at scale** using **Azure Data Factory + Databricks (PySpark)**
-- Maintain curated Delta models (Fact/RACT/LMS), **MERGE**-based increments, smart partitioning
-- Use LLMs to speed up metadata work (bulk **ALTER** statements for tables/views/columns)
+- Build and operate **Oracle to Databricks** ingestion with **Striim Cloud** (initial loads + CDC)
+- Run **reconciliation at scale** across hundreds of high volume tables using Databricks jobs and Delta metrics
+- Automate platform reliability work like CDC monitoring, dashboards, and scheduled validations
+- Use **PySpark + LLM tooling** to generate catalog metadata and produce bulk ALTER SQL updates
 
 ---
 
-🧪 **Previously**
-- **Fidelity Investments — Software Engineer Intern (2024)**  
-  Built a micro-frontend architecture for the APO app, moved feature flags to LaunchDarkly, set up a Monorepo with Nx, and prototyped a small “knowledge graph” idea.
-- **Fidelity Investments — Full-Stack Intern (2023)**  
-  Internal monitoring tool (Angular UI), CSS-only splash screen (faster loads), TypeScript privilege rules, Scrum team fun.
+📌 **Experience highlights**
+**Parexel International | Data Engineer (Feb 2025 to Present)**
+- Built a Databricks automation to pull Striim CDC read timestamps and backup SCNs via API, cutting checks from minutes to ~20 seconds
+- Scheduled a reconciliation job (2x daily) validating 400+ tables, writing results to Delta metrics, and surfacing trends in a Databricks dashboard
+- Removed 20k+ manual edits by generating table, view, and column descriptions and emitting ALTER SQL at scale
+- Led real time replication of 400+ tables to support downstream curation and Power BI reporting
 
----
+**Fidelity Investments | Software Engineer Intern (Jun 2024 to Aug 2024)**
+- Migrated feature flags to LaunchDarkly and added 50+ unit tests to improve release safety
+- Shipped Postman collections and monitors with schema and data checks to prevent API regressions
+- Contributed to a micro-frontend platform enabling more independent module deployments
+- Improved knowledge graph accuracy by 15% by transforming datasets in Power BI for Neo4j ingestion
 
-🛠️ **Stuff I use**
-- **Data/Platforms:** Databricks (Delta, PySpark), **Striim Cloud**, **Azure Data Factory**
-- **Languages:** Python, Java, JS/TS, SQL, plus some C/C++/C#
-- **Web/Tools:** Node.js, Express, Angular, React, Next.js, Docker, Git, Postman, Linux/UNIX
-- **Practices:** ETL/ELT, CI/CD, Agile, monorepos, feature flags, tests
+**Fidelity Investments | Full Stack Developer Intern (Jun 2023 to Aug 2023)**
+- Built a system health dashboard backed by status endpoints across 5 environments
+- Developed an Angular UI used by 100+ users and iterated based on usability feedback
+- Reduced page load time by 25% by replacing a script based splash screen with a CSS only implementation
 
 ---
 
 ⭐ **Projects**
-- **JWT Auth Test** — a small Node.js app with JWT-based auth, protected routes, and a simple front-end.
-- **Reconciliation Accelerator** — PySpark + ADF workflow to compare source ↔ target at scale and cut analysis time drastically.
+- **NodeJS JWT Authentication Test**
+  - Node.js and Express REST API with JWT auth using `express-jwt`, HS256 signed access tokens, and multiple protected endpoints
+  - Login endpoint that validates credentials and issues expiring JWTs, plus centralized 401 handling for invalid or missing tokens
+  - Small full stack demo with a static UI served from the backend and CORS enabled for local development
 
 ---
 
-🎯 **Now learning/playing with**
-- PySpark performance tricks, Delta Lake optimization, and light AI helpers for data engineering.
+🛠️ **Tech I use**
+- **Data:** Databricks (Delta, PySpark), Azure Data Factory, Azure Data Lake, Striim Cloud
+- **Languages:** Python, SQL, Java, JavaScript, TypeScript
+- **Web/Tools:** Node.js, Express, React, Angular, Docker, Git, Jenkins, Postman, Jira, Confluence
+- **Other:** Oracle SQL Developer, SSMS, MongoDB, Neo4j
 
 ---
 
 **Connect**
 - 🔗 LinkedIn: https://www.linkedin.com/in/kashyap-patel-318b791a0/
 - 🧑‍💻 GitHub: https://github.com/notWizzy
+- ✉️ Email: kashyap76315@icloud.com
