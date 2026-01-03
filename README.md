@@ -7,7 +7,7 @@
 ---
 
 🧩 **What I do (day to day)**
-- Build and operate **Oracle to Databricks** ingestion with **Striim Cloud** (initial loads + CDC)
+- Build and operate **Oracle to Databricks** ingestion apps using **Striim Cloud** (initial loads + CDC)
 - Run **reconciliation at scale** across hundreds of high volume tables using Databricks jobs and Delta metrics
 - Automate platform reliability work like CDC monitoring, dashboards, and scheduled validations
 - Use **PySpark + LLM tooling** to generate catalog metadata and produce bulk ALTER SQL updates
