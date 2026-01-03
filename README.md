@@ -15,19 +15,19 @@
 ---
 
 📌 **Experience highlights**
--**Parexel International | Data Engineer (Feb 2025 to Present)**
+- **Parexel International | Data Engineer (Feb 2025 to Present)**
   - Built a Databricks automation to pull Striim CDC read timestamps and backup SCNs via API, cutting checks from minutes to ~20 seconds
   - Scheduled a reconciliation job (2x daily) validating 400+ tables, writing results to Delta metrics, and surfacing trends in a Databricks dashboard
   - Removed 20k+ manual edits by generating table, view, and column descriptions and emitting ALTER SQL at scale
   - Led real time replication of 400+ tables to support downstream curation and Power BI reporting
 
--**Fidelity Investments | Software Engineer Intern (Jun 2024 to Aug 2024)**
+- **Fidelity Investments | Software Engineer Intern (Jun 2024 to Aug 2024)**
   - Migrated feature flags to LaunchDarkly and added 50+ unit tests to improve release safety
   - Shipped Postman collections and monitors with schema and data checks to prevent API regressions
   - Contributed to a micro-frontend platform enabling more independent module deployments
   - Improved knowledge graph accuracy by 15% by transforming datasets in Power BI for Neo4j ingestion
 
--**Fidelity Investments | Full Stack Developer Intern (Jun 2023 to Aug 2023)**
+- **Fidelity Investments | Full Stack Developer Intern (Jun 2023 to Aug 2023)**
   - Built a system health dashboard backed by status endpoints across 5 environments
   - Developed an Angular UI used by 100+ users and iterated based on usability feedback
   - Reduced page load time by 25% by replacing a script based splash screen with a CSS only implementation
