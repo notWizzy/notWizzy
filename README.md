@@ -3,7 +3,6 @@
 🙍‍♂️ **About me**
 - 💼 Data Engineer at **Parexel** (Databricks, Striim Cloud, Azure Data Factory)
 - 🎓 B.S. in Computer Science, **UNC Charlotte** (Aug 2021 to Dec 2024)
-- ⚙️ I like turning messy data flows into clean, fast, verifiable pipelines that teams can trust.
 
 ---
 
