@@ -1,36 +1,30 @@
 # Hi, I'm Kashyap 👋
 
 🙍‍♂️ **About me**
-- 💼 Data Engineer at **Parexel** (Databricks, Striim Cloud, Azure Data Factory)
-- 🎓 B.S. in Computer Science, **UNC Charlotte** (Aug 2021 to Dec 2024)
 
----
+I am currently a Data Engineer at Parexel, focused on building high-integrity data systems. My core work involves engineering scalable ingestion pipelines—handling both full loads and Change Data Capture (CDC)—to move critical finance data from Oracle EBS into ADLS Gen2 and Databricks. Because data reliability is paramount, I built a reconciliation framework that continuously validates replication across 400+ high-volume tables, ensuring absolute trust in downstream analytics.
 
-🧩 **What I do (day to day)**
-- Build and operate **Oracle to Databricks** ingestion apps using **Striim Cloud** (initial loads + CDC)
-- Run **reconciliation at scale** across hundreds of high volume tables using Databricks jobs and Delta metrics
-- Automate platform reliability work like CDC monitoring, dashboards, and scheduled validations
-- Use **PySpark + LLM tooling** to generate catalog metadata and produce bulk ALTER SQL updates
+I have a strong bias for action and a passion for automation. Recently, I identified a tedious workflow requiring over 20,000 manual database operations and collaborated with a teammate to fully automate it using PySpark and the OpenAI API. This transformed a high-risk, time-consuming process into an efficient, auditable system, saving hundreds of hours.
+
+My approach to data engineering is heavily influenced by my software engineering background and internships at Fidelity. I treat data pipelines as distributed systems, prioritizing modularity, robust testing, and fault tolerance. Ultimately, I am driven to apply these engineering-first principles to architect robust data platforms operating at a global scale.
 
 ---
 
 📌 **Experience highlights**
-- **Parexel International | Data Engineer (Feb 2025 to Present)**
-  - Built a Databricks automation to pull Striim CDC read timestamps and backup SCNs via API, cutting checks from minutes to ~20 seconds
-  - Scheduled a reconciliation job (2x daily) validating 400+ tables, writing results to Delta metrics, and surfacing trends in a Databricks dashboard
-  - Removed 20k+ manual edits by generating table, view, and column descriptions and emitting ALTER SQL at scale
-  - Led real time replication of 400+ tables to support downstream curation and Power BI reporting
+- **Parexel International | Data Engineer (February 2025 - Present)**
+  - Designed and engineered a scalable Databricks reconciliation framework to prevent silent data loss across 400+ Oracle tables (5B+ records), automating source-to-target validation and logging discrepancies in an auditable Delta metrics table.
+  - Decreased Change Data Capture monitoring latency from minutes to ~20 seconds by engineering a scheduled Databricks API automation, replacing error-prone manual UI checks.
+  - Replaced 20,000+ manual database operations by building a PySpark and OpenAl automation that auto-generates table descriptions and executes the SQL needed to keep the Databricks catalog updated.
 
-- **Fidelity Investments | Software Engineer Intern (Jun 2024 to Aug 2024)**
-  - Migrated feature flags to LaunchDarkly and added 50+ unit tests to improve release safety
-  - Shipped Postman collections and monitors with schema and data checks to prevent API regressions
-  - Contributed to a micro-frontend platform enabling more independent module deployments
-  - Improved knowledge graph accuracy by 15% by transforming datasets in Power BI for Neo4j ingestion
+- **Fidelity Investments | Software Engineer Intern (June 2024 - August 2024)**
+  - Mitigated production rollout risks and established deployment safety by migrating legacy feature flags to LaunchDarkly, engineering 50+ automated unit tests to catch regressions and prevent broken deployments.
+  - Reduced deployment risk for a micro-frontend application by engineering comprehensive Postman test collections, rigorously validating REST and GraphQL API data accessibility prior to deployments.
+  - Reduced deployment risk and release latency by transitioning tightly coupled UI workflows into a micro-frontend architecture, isolating team dependencies so individual modules could be deployed independently.
+  - Boosted Planning Intelligence Engine accuracy by 15% by engineering data transformation workflows for Neo4j Knowledge Graph ingestion, resolving underlying dataset inconsistencies and improving downstream decision-making.
 
-- **Fidelity Investments | Full Stack Developer Intern (Jun 2023 to Aug 2023)**
-  - Built a system health dashboard backed by status endpoints across 5 environments
-  - Developed an Angular UI used by 100+ users and iterated based on usability feedback
-  - Reduced page load time by 25% by replacing a script based splash screen with a CSS only implementation
+- **Fidelity Investments | Full Stack Developer Intern (June 2023 - August 2023)**
+  - Replaced manual application checks by developing a real-time AngularJS health dashboard, continuously polling status APIs to instantly flag system outages across 5 internal environments.
+  - Reduced initial page load time by 25% by replacing a render-blocking JavaScript splash screen with a lightweight CSS-only version, allowing the core application to load significantly faster.
 
 ---
 
