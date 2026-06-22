@@ -29,10 +29,10 @@ My approach to data engineering is heavily influenced by my software engineering
 ---
 
 ⭐ **Projects**
-- **NodeJS JWT Authentication Test**
-  - Node.js and Express REST API with JWT auth using `express-jwt`, HS256 signed access tokens, and multiple protected endpoints
-  - Login endpoint that validates credentials and issues expiring JWTs, plus centralized 401 handling for invalid or missing tokens
-  - Small full stack demo with a static UI served from the backend and CORS enabled for local development
+- **Errex — AI-Powered Terminal Debugger**
+  - Go CLI tool that executes shell commands, captures stderr on failure, and routes the error output to a locally hosted LLM via Ollama to generate a structured plain-English diagnosis with an exact remediation command
+  - Engineered a constrained prompt schema enforcing a strict three-part diagnostic format, replacing verbose model responses with specific fixes referencing exact file paths and shell commands
+  - Architected isolated internal packages for CLI orchestration (Cobra), LLM inference (Ollama HTTP client), and terminal rendering (Lip Gloss) with a GitHub Actions CI pipeline validating builds on every push
 
 ---
 
