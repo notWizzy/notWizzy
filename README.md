@@ -40,7 +40,7 @@ My approach to data engineering is heavily influenced by my software engineering
 - **Data:** Databricks (Delta, PySpark), Azure Data Factory, Azure Data Lake, Striim Cloud
 - **Languages:** Python, SQL, Java, JavaScript, TypeScript
 - **Web/Tools:** Node.js, Express, React, Angular, Docker, Git, Jenkins, Postman, Jira, Confluence
-- **Other:** Oracle SQL Developer, SSMS, MongoDB, Neo4j
+- **Other:** Oracle SQL Developer, SSMS, MongoDB, Neo4j, Ollama
 
 ---
 
