@@ -30,9 +30,9 @@ My approach to data engineering is heavily influenced by my software engineering
 
 ⭐ **Projects**
 - **Errex — AI-Powered Terminal Debugger** `Go` `Ollama` `LLM Prompt Engineering`
-  - Go CLI tool that captures failing command stderr and routes it to a locally hosted LLM via Ollama, returning a structured plain-English diagnosis with an exact remediation command directly in the terminal
-  - Engineered a constrained prompt schema enforcing a strict three-part diagnostic format, eliminating verbose model responses in favor of actionable fixes referencing exact file paths and shell commands
-  - Architected isolated internal packages for CLI orchestration (Cobra), LLM inference (Ollama HTTP client), and terminal rendering (Lip Gloss), with a GitHub Actions CI pipeline validating builds on every push
+  - Reduced debugging time by building a Go CLI tool that captures failing command output and routes it to a local LLM via Ollama, returning structured diagnoses and exact remediation commands directly in the terminal
+  - Improved LLM response precision by engineering a constrained prompt that enforces a strict three-part diagnostic format, replacing verbose and generic model responses with actionable fixes referencing precise information
+  - Ensured maintainability by architecting modular packages for CLI orchestration (Cobra), LLM inference (Ollama HTTP client), and terminal rendering (Lip Gloss), and implementing GitHub Actions CI to validate builds on every push
 
 ---
 
